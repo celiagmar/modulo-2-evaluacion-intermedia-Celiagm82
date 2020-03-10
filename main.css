@@ -1,0 +1,35 @@
+body {
+    color: rgb(90, 89, 89);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 40px;  
+}
+
+input {
+    display: block;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+button {
+    background-color: rgb(11, 207, 181);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    margin-top: 15px;
+}
+
+.number {
+    border-radius: 5px;
+    background-color: rgb(228, 220, 220);
+    border: none;
+}
+
+.clue-text, .attemps-number {
+    width: 30%;
+}
+
