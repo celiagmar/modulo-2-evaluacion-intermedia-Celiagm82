@@ -27,6 +27,9 @@ function tryLuck() {
     if (numberInput.value > randomNumber) {
         clueInput.value = 'El número es demasiado alto';
     }
+    if (numberInput.value < 1 || numberInput.value > 100) {
+        clueInput.value = 'El número debe estar entre 1 y 100';
+    }
     
 }
 
