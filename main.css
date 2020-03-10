@@ -17,6 +17,7 @@ input {
 button {
     background-color: rgb(11, 207, 181);
     color: white;
+    text-transform: uppercase;
     border-radius: 5px;
     padding: 10px;
     border: none;
